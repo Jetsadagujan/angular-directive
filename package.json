@@ -1,5 +1,5 @@
 {
-  "name": "highlight-attr-directive",
+  "name": "angular-attribute-directive-example",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
