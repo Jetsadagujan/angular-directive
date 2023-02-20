@@ -32,6 +32,7 @@ export class SearhPokeDirective {
       )
       .subscribe((value: any) => {
         this.resImage.emit(value.sprites.front_default);
+        this.el.nativeElement.setAttribute('src', value.sprites.front_default);
       });
   }
 

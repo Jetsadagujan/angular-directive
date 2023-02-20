@@ -81,12 +81,7 @@
       [(ngModel)]="searchPoke"
     />
   </div>
-  <img
-    appSearhPoke
-    [idPokemon]="searchPoke"
-    [src]="data"
-    (resImage)="setImage($event)"
-  />
+  <img appSearhPoke [idPokemon]="searchPoke" />
 </div>
 
 <style>
